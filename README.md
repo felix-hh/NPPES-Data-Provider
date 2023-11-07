@@ -2,11 +2,15 @@
 
 A simple DBT job to fetch data from the NPPES Data Dissemination File released by CMS as part of the Freedom of Information Act (FOIA), clean it and output it as a parquet file. 
 
+`example.csv` shows 100 NPIs in this postprocessed format. It is very similar to the original format except for multivalued columns that converted to lists.
+
 ## Key Benefits
 - Decompresses, parses and converts raw files to a structured parquet format that is easy to load into any database.
 - Converts multivalued columns such as "Healthcare Provider Taxonomy Group_idx" into lists of structs.
     - For example, colums that belong together such as License Number 15 and License State 15 is grouped into the same {license: x, state: y} object.
 - Single file output of small size (650MB)
+- Column names are original, so it is fully compatible with the original CSV documentation.
+    - The only exception are Other Provider Identifier List, Healthcare Provider Taxonomy Group List, Healthcare Provider Taxonomy Code List. These correspond to the processed multivalued fields in the original dataset.
 
 ## Requirements
 Requires using DBT, DuckDB, and an external tool, [csv2parquet](https://github.com/domoritz/arrow-tools/tree/main/crates/csv2parquet#examples). Requires creating a `~/dbt/profiles.yml` file. 
