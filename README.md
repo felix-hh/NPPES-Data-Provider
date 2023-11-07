@@ -4,6 +4,8 @@ A simple DBT job to fetch data from the NPPES Data Dissemination File released b
 
 `example.csv` shows 100 NPIs in this postprocessed format. It is very similar to the original format except for multivalued columns that converted to lists.
 
+The October 2023 version of this parquet dataset is available at https://felixh-shareables.s3.us-west-2.amazonaws.com/NPPES/nppes_20231008.zstd.parquet
+
 ## Key Benefits
 - Decompresses, parses and converts raw files to a structured parquet format that is easy to load into any database.
 - Converts multivalued columns such as "Healthcare Provider Taxonomy Group_idx" into lists of structs.
