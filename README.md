@@ -6,10 +6,19 @@ A simple dbt job to fetch data from the NPPES Data Dissemination File released b
 
 The October 2023 version of this parquet dataset is available at https://felixh-shareables.s3.us-west-2.amazonaws.com/NPPES/nppes_20231008.zstd.parquet
 
+## Dataset Overview
+
+The NPPES dataset is located at https://download.cms.gov/nppes/NPI_Files.html
+
+According to ResDAC (https://resdac.org/articles/overview-nppesnpi-downloadable-file):
+>The CMS National Plan and Provider Enumeration System (NPPES) provides basic information about all organization and individual providers with a National Provider Identifier (NPI). The National Provider Identifier (NPI) is unique identification number for health care providers, including both organizations and individuals. The NPI is a 10-position numeric identifier that allows researchers to identify a unique provider.
+
+For the official documentation, see [the CMS website](https://www.cms.gov/medicare/regulations-guidance/administrative-simplification/data-dissemination) and [the CMS column descriptions](https://www.cms.gov/regulations-and-guidance/administrative-simplification/nationalprovidentstand/downloads/data_dissemination_file-readme.pdf)
+
 ## Key Benefits
 - Decompresses, parses and converts raw files to a structured parquet format that is easy to load into any database.
 - Converts multivalued columns such as "Healthcare Provider Taxonomy Group_idx" into lists of structs.
-    - For example, colums that belong together such as License Number 15 and License State 15 is grouped into the same {license: x, state: y} object.
+    - For example, colums that belong together such as License Number_15 and License State_15 is grouped into the same {license: x, state: y} object.
 - Single file output of small size (650MB)
 - Column names are original, so it is fully compatible with the original CSV documentation.
     - The only exception are Other Provider Identifier List, Healthcare Provider Taxonomy Group List, Healthcare Provider Taxonomy Code List. These correspond to the processed multivalued fields in the original dataset.
