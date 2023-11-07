@@ -1,6 +1,6 @@
 # NPPES Data Provider
 
-A simple DBT job to fetch data from the NPPES Data Dissemination File released by CMS as part of the Freedom of Information Act (FOIA), clean it and output it as a parquet file. 
+A simple dbt job to fetch data from the NPPES Data Dissemination File released by CMS as part of the Freedom of Information Act (FOIA), clean it and output it as a parquet file. 
 
 `example.csv` shows 100 NPIs in this postprocessed format. It is very similar to the original format except for multivalued columns that converted to lists.
 
@@ -15,7 +15,7 @@ The October 2023 version of this parquet dataset is available at https://felixh-
     - The only exception are Other Provider Identifier List, Healthcare Provider Taxonomy Group List, Healthcare Provider Taxonomy Code List. These correspond to the processed multivalued fields in the original dataset.
 
 ## Requirements
-Requires using DBT, DuckDB, and an external tool, [csv2parquet](https://github.com/domoritz/arrow-tools/tree/main/crates/csv2parquet#examples). Requires creating a `~/dbt/profiles.yml` file. 
+Requires using dbt, DuckDB, and an external tool, [csv2parquet](https://github.com/domoritz/arrow-tools/tree/main/crates/csv2parquet#examples). Requires creating a `~/dbt/profiles.yml` file. 
 
 dbt Core Quickstart: https://docs.getdbt.com/quickstarts/manual-install
 
