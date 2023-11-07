@@ -1,0 +1,1 @@
+select * from 'data/inputs/npidata_pfile_20050523-20231008.gz.parquet'

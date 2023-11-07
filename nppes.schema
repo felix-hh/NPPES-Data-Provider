@@ -1,0 +1,2645 @@
+{
+  "fields": [
+    {
+      "name": "NPI",
+      "data_type": "Int64",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Entity Type Code",
+      "data_type": "Int64",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Replacement NPI",
+      "data_type": "Int64",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Employer Identification Number (EIN)",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Provider Organization Name (Legal Business Name)",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Provider Last Name (Legal Name)",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Provider First Name",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Provider Middle Name",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Provider Name Prefix Text",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Provider Name Suffix Text",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Provider Credential Text",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Provider Other Organization Name",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Provider Other Organization Name Type Code",
+      "data_type": "Int64",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Provider Other Last Name",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Provider Other First Name",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Provider Other Middle Name",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Provider Other Name Prefix Text",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Provider Other Name Suffix Text",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Provider Other Credential Text",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Provider Other Last Name Type Code",
+      "data_type": "Int64",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Provider First Line Business Mailing Address",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Provider Second Line Business Mailing Address",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Provider Business Mailing Address City Name",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Provider Business Mailing Address State Name",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Provider Business Mailing Address Postal Code",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Provider Business Mailing Address Country Code (If outside U.S.)",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Provider Business Mailing Address Telephone Number",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Provider Business Mailing Address Fax Number",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Provider First Line Business Practice Location Address",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Provider Second Line Business Practice Location Address",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Provider Business Practice Location Address City Name",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Provider Business Practice Location Address State Name",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Provider Business Practice Location Address Postal Code",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Provider Business Practice Location Address Country Code (If outside U.S.)",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Provider Business Practice Location Address Telephone Number",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Provider Business Practice Location Address Fax Number",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Provider Enumeration Date",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Last Update Date",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "NPI Deactivation Reason Code",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "NPI Deactivation Date",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "NPI Reactivation Date",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Provider Gender Code",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Authorized Official Last Name",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Authorized Official First Name",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Authorized Official Middle Name",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Authorized Official Title or Position",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Authorized Official Telephone Number",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Healthcare Provider Taxonomy Code_1",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Provider License Number_1",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Provider License Number State Code_1",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Healthcare Provider Primary Taxonomy Switch_1",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Healthcare Provider Taxonomy Code_2",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Provider License Number_2",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Provider License Number State Code_2",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Healthcare Provider Primary Taxonomy Switch_2",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Healthcare Provider Taxonomy Code_3",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Provider License Number_3",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Provider License Number State Code_3",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Healthcare Provider Primary Taxonomy Switch_3",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Healthcare Provider Taxonomy Code_4",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Provider License Number_4",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Provider License Number State Code_4",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Healthcare Provider Primary Taxonomy Switch_4",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Healthcare Provider Taxonomy Code_5",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Provider License Number_5",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Provider License Number State Code_5",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Healthcare Provider Primary Taxonomy Switch_5",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Healthcare Provider Taxonomy Code_6",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Provider License Number_6",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Provider License Number State Code_6",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Healthcare Provider Primary Taxonomy Switch_6",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Healthcare Provider Taxonomy Code_7",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Provider License Number_7",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Provider License Number State Code_7",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Healthcare Provider Primary Taxonomy Switch_7",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Healthcare Provider Taxonomy Code_8",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Provider License Number_8",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Provider License Number State Code_8",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Healthcare Provider Primary Taxonomy Switch_8",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Healthcare Provider Taxonomy Code_9",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Provider License Number_9",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Provider License Number State Code_9",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Healthcare Provider Primary Taxonomy Switch_9",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Healthcare Provider Taxonomy Code_10",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Provider License Number_10",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Provider License Number State Code_10",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Healthcare Provider Primary Taxonomy Switch_10",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Healthcare Provider Taxonomy Code_11",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Provider License Number_11",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Provider License Number State Code_11",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Healthcare Provider Primary Taxonomy Switch_11",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Healthcare Provider Taxonomy Code_12",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Provider License Number_12",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Provider License Number State Code_12",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Healthcare Provider Primary Taxonomy Switch_12",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Healthcare Provider Taxonomy Code_13",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Provider License Number_13",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Provider License Number State Code_13",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Healthcare Provider Primary Taxonomy Switch_13",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Healthcare Provider Taxonomy Code_14",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Provider License Number_14",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Provider License Number State Code_14",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Healthcare Provider Primary Taxonomy Switch_14",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Healthcare Provider Taxonomy Code_15",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Provider License Number_15",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Provider License Number State Code_15",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Healthcare Provider Primary Taxonomy Switch_15",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier_1",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Type Code_1",
+      "data_type": "Int64",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier State_1",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Issuer_1",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier_2",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Type Code_2",
+      "data_type": "Int64",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier State_2",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Issuer_2",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier_3",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Type Code_3",
+      "data_type": "Int64",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier State_3",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Issuer_3",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier_4",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Type Code_4",
+      "data_type": "Int64",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier State_4",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Issuer_4",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier_5",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Type Code_5",
+      "data_type": "Int64",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier State_5",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Issuer_5",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier_6",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Type Code_6",
+      "data_type": "Int64",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier State_6",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Issuer_6",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier_7",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Type Code_7",
+      "data_type": "Int64",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier State_7",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Issuer_7",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier_8",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Type Code_8",
+      "data_type": "Int64",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier State_8",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Issuer_8",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier_9",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Type Code_9",
+      "data_type": "Int64",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier State_9",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Issuer_9",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier_10",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Type Code_10",
+      "data_type": "Int64",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier State_10",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Issuer_10",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier_11",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Type Code_11",
+      "data_type": "Int64",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier State_11",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Issuer_11",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier_12",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Type Code_12",
+      "data_type": "Int64",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier State_12",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Issuer_12",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier_13",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Type Code_13",
+      "data_type": "Int64",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier State_13",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Issuer_13",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier_14",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Type Code_14",
+      "data_type": "Int64",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier State_14",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Issuer_14",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier_15",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Type Code_15",
+      "data_type": "Int64",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier State_15",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Issuer_15",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier_16",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Type Code_16",
+      "data_type": "Int64",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier State_16",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Issuer_16",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier_17",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Type Code_17",
+      "data_type": "Int64",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier State_17",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Issuer_17",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier_18",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Type Code_18",
+      "data_type": "Int64",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier State_18",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Issuer_18",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier_19",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Type Code_19",
+      "data_type": "Int64",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier State_19",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Issuer_19",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier_20",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Type Code_20",
+      "data_type": "Int64",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier State_20",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Issuer_20",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier_21",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Type Code_21",
+      "data_type": "Int64",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier State_21",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Issuer_21",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier_22",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Type Code_22",
+      "data_type": "Int64",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier State_22",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Issuer_22",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier_23",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Type Code_23",
+      "data_type": "Int64",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier State_23",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Issuer_23",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier_24",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Type Code_24",
+      "data_type": "Int64",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier State_24",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Issuer_24",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier_25",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Type Code_25",
+      "data_type": "Int64",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier State_25",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Issuer_25",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier_26",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Type Code_26",
+      "data_type": "Int64",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier State_26",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Issuer_26",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier_27",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Type Code_27",
+      "data_type": "Int64",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier State_27",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Issuer_27",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier_28",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Type Code_28",
+      "data_type": "Int64",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier State_28",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Issuer_28",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier_29",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Type Code_29",
+      "data_type": "Int64",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier State_29",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Issuer_29",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier_30",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Type Code_30",
+      "data_type": "Int64",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier State_30",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Issuer_30",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier_31",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Type Code_31",
+      "data_type": "Int64",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier State_31",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Issuer_31",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier_32",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Type Code_32",
+      "data_type": "Int64",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier State_32",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Issuer_32",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier_33",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Type Code_33",
+      "data_type": "Int64",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier State_33",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Issuer_33",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier_34",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Type Code_34",
+      "data_type": "Int64",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier State_34",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Issuer_34",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier_35",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Type Code_35",
+      "data_type": "Int64",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier State_35",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Issuer_35",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier_36",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Type Code_36",
+      "data_type": "Int64",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier State_36",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Issuer_36",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier_37",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Type Code_37",
+      "data_type": "Int64",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier State_37",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Issuer_37",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier_38",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Type Code_38",
+      "data_type": "Int64",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier State_38",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Issuer_38",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier_39",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Type Code_39",
+      "data_type": "Int64",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier State_39",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Issuer_39",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier_40",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Type Code_40",
+      "data_type": "Int64",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier State_40",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Issuer_40",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier_41",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Type Code_41",
+      "data_type": "Int64",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier State_41",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Issuer_41",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier_42",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Type Code_42",
+      "data_type": "Int64",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier State_42",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Issuer_42",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier_43",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Type Code_43",
+      "data_type": "Int64",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier State_43",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Issuer_43",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier_44",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Type Code_44",
+      "data_type": "Int64",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier State_44",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Issuer_44",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier_45",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Type Code_45",
+      "data_type": "Int64",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier State_45",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Issuer_45",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier_46",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Type Code_46",
+      "data_type": "Int64",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier State_46",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Issuer_46",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier_47",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Type Code_47",
+      "data_type": "Int64",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier State_47",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Issuer_47",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier_48",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Type Code_48",
+      "data_type": "Int64",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier State_48",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Issuer_48",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier_49",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Type Code_49",
+      "data_type": "Int64",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier State_49",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Issuer_49",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier_50",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Type Code_50",
+      "data_type": "Int64",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier State_50",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Other Provider Identifier Issuer_50",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Is Sole Proprietor",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Is Organization Subpart",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Parent Organization LBN",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Parent Organization TIN",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Authorized Official Name Prefix Text",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Authorized Official Name Suffix Text",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Authorized Official Credential Text",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Healthcare Provider Taxonomy Group_1",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Healthcare Provider Taxonomy Group_2",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Healthcare Provider Taxonomy Group_3",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Healthcare Provider Taxonomy Group_4",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Healthcare Provider Taxonomy Group_5",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Healthcare Provider Taxonomy Group_6",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Healthcare Provider Taxonomy Group_7",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Healthcare Provider Taxonomy Group_8",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Healthcare Provider Taxonomy Group_9",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Healthcare Provider Taxonomy Group_10",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Healthcare Provider Taxonomy Group_11",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Healthcare Provider Taxonomy Group_12",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Healthcare Provider Taxonomy Group_13",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Healthcare Provider Taxonomy Group_14",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Healthcare Provider Taxonomy Group_15",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    },
+    {
+      "name": "Certification Date",
+      "data_type": "Utf8",
+      "nullable": true,
+      "dict_id": 0,
+      "dict_is_ordered": false,
+      "metadata": {}
+    }
+  ],
+  "metadata": {}
+}
