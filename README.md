@@ -4,7 +4,7 @@ A simple dbt job to fetch data from the NPPES Data Dissemination File released b
 
 `example.csv` shows 100 NPIs in this postprocessed format. It is very similar to the original format except for multivalued columns that converted to lists.
 
-The October 2023 version of this parquet dataset is available at https://felixh-shareables.s3.us-west-2.amazonaws.com/NPPES/nppes_20231008.zstd.parquet
+The October 2023 version of this parquet dataset is available at https://felixh-shareables.s3.us-west-2.amazonaws.com/NPPES/nppes_20231008.zstd.parquet. Note that it is ZSTD compressed.
 
 ## Dataset Overview
 
